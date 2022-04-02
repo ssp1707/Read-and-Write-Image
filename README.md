@@ -23,28 +23,28 @@ End the program and close the output image windows.
 # Developed By: S. Sanjna Priya
 # Register Number: 212220230043
 # To Read,display the image
-'''
+```
 import cv2
 color_image=cv2.imread('simp.jpg',1)
 cv2.imshow('colorimage',color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
+```
 # To write the image
-'''
+```
 cv2.imwrite('Flower.jpg',color_image)
 cv2.imshow('Flower Image',color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
+```
 # Find the shape of the Image
-'''
+```
 import cv2
 color_image=cv2.imread('simp.jpg',-1)
 print(color_image.shape)
-'''
+```
 # To access rows and columns
-'''
+```
 import cv2
 import random
 color_img=cv2.imread('simp.jpg',1)
@@ -54,15 +54,15 @@ for i in range(150):
         cv2.imshow('212220230043, S. Sanjna Priya',color_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
+```
 # To cut and paste portion of image
-'''
+```
 cut=color_image[260:280,100:300]
 color_image[60:80,100:300]=cut
 cv2.imshow('cutimage',color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
+```
 
 
 
