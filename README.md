@@ -19,7 +19,7 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-```python
+
 # Developed By: S. Sanjna Priya
 # Register Number: 212220230043
 # To Read,display the image
@@ -62,7 +62,6 @@ color_image[60:80,100:300]=cut
 cv2.imshow('cutimage',color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
 
 
 
