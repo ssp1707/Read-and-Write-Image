@@ -62,15 +62,6 @@ color_image[60:80,100:300]=cut
 cv2.imshow('cutimage',color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
 ```
 ## Output:
 
